@@ -18,6 +18,30 @@ main {
   height: 50%;
   background-color: white;
   border-radius: 10px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-panel {
+  width: 50%;
+
+  border-radius: inherit;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.left-panel img {
+  border-radius: inherit;
+}
+
+.rigth-panel {
+  background-color: yellow;
+  width: 50%;
+
+  border-radius: inherit;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 footer {
