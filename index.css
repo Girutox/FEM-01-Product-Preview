@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  height: 95%;
+  height: 100%;
 
   display: flex;
   justify-content: center;
@@ -15,12 +15,13 @@ main {
 }
 
 .card {
-  width: 35%;
-  height: 50%;
-  background-color: white;
+  width: 620px;
+
+  background-color: red;
   border-radius: 10px;
 
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -38,15 +39,13 @@ main {
 
 .rigth-panel {
   width: 50%;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   box-sizing: border-box;
+  background-color: white;
 
   border-radius: inherit;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .rigth-panel h1 {
@@ -62,11 +61,13 @@ main {
   margin: 0;
   margin-top: 1.2rem;
 
-  font-size: 35px;
+  font-size: 33px;
   font-family: 'Fraunces', sans-serif;
 }
 
 .rigth-panel p {
+  line-height: 25px;
+  font-size: 15px;
   color: hsl(228, 12%, 48%);
 }
 
@@ -77,7 +78,7 @@ main {
 }
 
 .price-group span:nth-child(1) {
-  font-size: 40px;
+  font-size: 30px;
   color: rgb(66, 138, 102);
 }
 
@@ -89,14 +90,17 @@ main {
 }
 
 .rigth-panel button {
+  width: 100%;
   background-color: rgb(66, 138, 102);
-  padding: 1rem 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: white;
   font-weight: 700;
   border-radius: 10px;
   border: none;
 
   display: flex;
+  justify-content: center;
   align-items: center;
 
   cursor: pointer;
@@ -113,5 +117,5 @@ main {
 }
 
 footer {
-  height: 5%;
+  /* height: 5%; */
 }
